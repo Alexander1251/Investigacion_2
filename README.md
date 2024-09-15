@@ -22,7 +22,7 @@ Desde [postman](https://web.postman.co/) podemos realizar las diversas pruebas, 
 
 Debe devolver esto:
 ```bash
-   {
+{
     "message": "Lista de jugadores",
     "data": [
         {
@@ -34,5 +34,5 @@ Debe devolver esto:
             "id_equipo": 1
         }
     ]
-   }
-   ```
+}
+```
