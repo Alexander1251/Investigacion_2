@@ -20,7 +20,7 @@ Sigue estos pasos para configurar, construir y ejecutar el contenedor Docker par
 ### Testeo
 Desde [postman](https://web.postman.co/) podemos realizar las diversas pruebas, un ejemplo de ello es realizar una nueva peticion GET a http://localhost:8000/api/jugadores/index
 
-Debe devolver esto
+Debe devolver esto:
 ```bash
    {
     "message": "Lista de jugadores",
