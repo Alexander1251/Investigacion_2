@@ -11,7 +11,7 @@ Sigue estos pasos para configurar, construir y ejecutar el contenedor Docker par
    git clone https://github.com/Alexander1251/Investigacion_2
    cd Investigacion_2
    ```
-3. **Utiliza el siguiente comando
+3. **Utiliza el siguiente comando**
    ```bash
    docker-compose up --build
    ```
