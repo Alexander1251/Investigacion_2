@@ -1,0 +1,34 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: laravel_appPrueba
+    ports:
+      - "8000:80" # Mapea el puerto 80 del contenedor al 8000 del host
+    networks:
+      - laravel_network
+    depends_on:
+      - db
+
+  db:
+    image: mysql:5.7
+    container_name: laravel_dbPrueba
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: bd_torneo
+    volumes:
+      - ./initdb.d:/docker-entrypoint-initdb.d # Carpeta con scripts SQL
+    networks:
+      - laravel_network
+    ports:
+      - "3306:3306"
+
+volumes:
+  dbdata:
+    driver: local
+
+networks:
+  laravel_network:
+    driver: bridge
