@@ -1,4 +1,4 @@
-## Configuración y Construcción del Contenedor Docker
+## Configuración y Construcción del Contenedor Docker.
 
 Sigue estos pasos para configurar, construir y ejecutar el contenedor Docker para la API de Laravel.
 
