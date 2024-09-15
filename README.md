@@ -18,7 +18,7 @@ Sigue estos pasos para configurar, construir y ejecutar el contenedor Docker par
    El contenedor ya estara listo para ser usado, puedes dirigirte a http://localhost:8000/ y veras el template de laravel.
 
 ### Testeo
-**Desde postman podemos realizar las diversas pruebas, un ejemplo de ello es realizar una nueva peticion GET a http://localhost:8000/api/jugadores/index
+Desde [postman](https://web.postman.co/) podemos realizar las diversas pruebas, un ejemplo de ello es realizar una nueva peticion GET a http://localhost:8000/api/jugadores/index
 
 Debe devolver esto
 ```bash
