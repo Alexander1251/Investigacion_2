@@ -1,3 +1,4 @@
+# Investigacion aplicada 2
 ## Configuración y Construcción del Contenedor
 
 Para configurar, construir y ejecutar el contenedor Docker para la API de Laravel sigue los siguientes pasos:
@@ -17,7 +18,7 @@ Para configurar, construir y ejecutar el contenedor Docker para la API de Larave
    ```
    El contenedor ya estara listo para ser usado, puedes dirigirte a http://localhost:8000/ y veras el template de laravel.
 
-### Para realizar Testeo
+### Para realizar testeo
 Desde [postman](https://web.postman.co/) podemos realizar las diversas pruebas, un ejemplo de ello es realizar una nueva peticion GET a http://localhost:8000/api/jugadores/index
 
 Debe devolver esto:
@@ -35,4 +36,58 @@ Debe devolver esto:
         }
     ]
 }
+```
+### Endpoints
+#### GET
+```bash
+   jugadores/index
+   jugadores/{id}/show
+
+   equipos/index
+   equipos/{id}/show
+
+   partidoEstados/index
+   partidoEstados/{id}/show
+
+   partidos/index
+   partidos/{id}/show
+
+   resultados/index
+   resultados/{id}/show
+```
+#### POST
+```bash
+   jugadores/store
+
+   equipos/store
+
+   partidoEstados/store
+
+   partidos/store
+
+   resultados/store
+```
+#### PATCH
+```bash
+   jugadores/{id}/update
+
+   equipos/{id}/update
+
+   partidoEstados/{id}/update
+
+   partidos/{id}/update
+
+   resultados/{id}/update
+```
+#### DELETE
+```bash
+   jugadores/{id}/destroy
+
+   equipos/{id}/destroy
+
+   partidoEstados/{id}/destroy
+
+   partidos/{id}/destroy
+
+   resultados/{id}/destroy
 ```
