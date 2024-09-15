@@ -1,6 +1,6 @@
-## Configuración y Construcción del Contenedor Docker.
+## Configuración y Construcción del Contenedor
 
-Sigue estos pasos para configurar, construir y ejecutar el contenedor Docker para la API de Laravel.
+Para configurar, construir y ejecutar el contenedor Docker para la API de Laravel sigue los siguientes pasos:
 
 ### Configuración del Contenedor
 
